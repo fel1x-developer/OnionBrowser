@@ -6,7 +6,6 @@ build/*
 !default.xcworkspace
 xcuserdata
 profile
-Pods
 .ruby-version
 Carthage/Build/
 Carthage/Checkouts/

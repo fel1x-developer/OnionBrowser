@@ -10,6 +10,7 @@
 
 import UIKit
 import WebKit
+import TUSafariActivity
 
 class BrowsingViewController: UIViewController, TabDelegate {
 

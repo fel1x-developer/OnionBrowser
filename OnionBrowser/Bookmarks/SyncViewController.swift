@@ -10,6 +10,7 @@
 
 import UIKit
 import Eureka
+import MBProgressHUD
 
 class SyncViewController: FixedFormViewController {
 

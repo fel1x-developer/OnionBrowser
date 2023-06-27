@@ -33,7 +33,6 @@
 		01F8793B1A4108DD00A63654 /* URLBlocker.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F8793A1A4108DD00A63654 /* URLBlocker.m */; };
 		01F879481A41141800A63654 /* urlblocker_mock_rules.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01F879461A41141800A63654 /* urlblocker_mock_rules.plist */; };
 		01F879491A41141800A63654 /* urlblocker_mock_targets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01F879471A41141800A63654 /* urlblocker_mock_targets.plist */; };
-		3E5C6BF218A52D07DF55A6FE /* Pods_OnionBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CE50C2429233D841D5F1C1 /* Pods_OnionBrowser.framework */; };
 		54F7DBC8281C189700CBEFDB /* CALayer+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F7DBC7281C189700CBEFDB /* CALayer+Helpers.swift */; };
 		69CBCD471E934228009D5352 /* URLBlockerRuleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CBCD461E934228009D5352 /* URLBlockerRuleController.m */; };
 		69CBCD4D1E934249009D5352 /* RuleEditorRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CBCD4B1E934249009D5352 /* RuleEditorRow.m */; };
@@ -146,7 +145,16 @@
 		A0FA965E2A015EBB005EDC3F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FA965C2A015EBB005EDC3F /* WelcomeViewController.swift */; };
 		A0FA96612A0161DA005EDC3F /* InstallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0FA965F2A0161DA005EDC3F /* InstallViewController.xib */; };
 		A0FA96622A0161DA005EDC3F /* InstallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FA96602A0161DA005EDC3F /* InstallViewController.swift */; };
-		E6311B9040FEC20B68B89A24 /* Pods_OnionBrowser_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12570C301D8FEF51AB9F5CDD /* Pods_OnionBrowser_Tests.framework */; };
+		BBF314F72A4BA265003A91CF /* DTFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = BBF314F62A4BA265003A91CF /* DTFoundation */; };
+		BBF314F92A4BA279003A91CF /* DTFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = BBF314F82A4BA279003A91CF /* DTFoundation */; };
+		BBF314FC2A4BA2BE003A91CF /* OCMock in Frameworks */ = {isa = PBXBuildFile; productRef = BBF314FB2A4BA2BE003A91CF /* OCMock */; };
+		BBF314FF2A4BA2F1003A91CF /* TUSafariActivity in Frameworks */ = {isa = PBXBuildFile; productRef = BBF314FE2A4BA2F1003A91CF /* TUSafariActivity */; };
+		BBF315022A4BA31B003A91CF /* SDCAlertView in Frameworks */ = {isa = PBXBuildFile; productRef = BBF315012A4BA31B003A91CF /* SDCAlertView */; };
+		BBF315052A4BA34B003A91CF /* FavIcon in Frameworks */ = {isa = PBXBuildFile; productRef = BBF315042A4BA34B003A91CF /* FavIcon */; };
+		BBF315082A4BA35B003A91CF /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = BBF315072A4BA35B003A91CF /* MBProgressHUD */; };
+		BBF3150B2A4BA390003A91CF /* ImageRow in Frameworks */ = {isa = PBXBuildFile; productRef = BBF3150A2A4BA390003A91CF /* ImageRow */; };
+		BBF3150E2A4BA39D003A91CF /* OrbotKit in Frameworks */ = {isa = PBXBuildFile; productRef = BBF3150D2A4BA39D003A91CF /* OrbotKit */; };
+		BBF315112A4BA3C5003A91CF /* Eureka in Frameworks */ = {isa = PBXBuildFile; productRef = BBF315102A4BA3C5003A91CF /* Eureka */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,7 +193,6 @@
 		018333CF1A351B3B00670CD1 /* Endless-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Endless-Prefix.pch"; sourceTree = "<group>"; };
 		018333D71A35727C00670CD1 /* OnionBrowser Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OnionBrowser Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		018333DA1A35727C00670CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		018333EB1A357D8B00670CD1 /* libPods-OCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-OCMock.a"; path = "Pods/build/Debug-iphoneos/libPods-OCMock.a"; sourceTree = "<group>"; };
 		019516D01B7D8B400078586A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		01F2AE371B7FEF5E00D5651A /* SSLCertificate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLCertificate.h; sourceTree = "<group>"; };
 		01F2AE381B7FEF5E00D5651A /* SSLCertificate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLCertificate.m; sourceTree = "<group>"; };
@@ -201,12 +208,7 @@
 		01F879401A4112E500A63654 /* URLBlocker_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLBlocker_Tests.m; sourceTree = "<group>"; };
 		01F879461A41141800A63654 /* urlblocker_mock_rules.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = urlblocker_mock_rules.plist; sourceTree = "<group>"; };
 		01F879471A41141800A63654 /* urlblocker_mock_targets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = urlblocker_mock_targets.plist; sourceTree = "<group>"; };
-		0B6C8A679F0E1774945F3777 /* Pods-OnionBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnionBrowser.release.xcconfig"; path = "Target Support Files/Pods-OnionBrowser/Pods-OnionBrowser.release.xcconfig"; sourceTree = "<group>"; };
-		0F209831E77CACB3F2BAE200 /* Pods-OnionBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnionBrowser.debug.xcconfig"; path = "Target Support Files/Pods-OnionBrowser/Pods-OnionBrowser.debug.xcconfig"; sourceTree = "<group>"; };
-		12570C301D8FEF51AB9F5CDD /* Pods_OnionBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnionBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F7DBC7281C189700CBEFDB /* CALayer+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Helpers.swift"; sourceTree = "<group>"; };
-		5FE3172A8893F37ED0730F03 /* Pods-OnionBrowser Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnionBrowser Tests.release.xcconfig"; path = "Target Support Files/Pods-OnionBrowser Tests/Pods-OnionBrowser Tests.release.xcconfig"; sourceTree = "<group>"; };
-		693145FD1D3EEAE400D08A6A /* Tor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Tor.framework; path = Carthage/Build/iOS/Tor.framework; sourceTree = "<group>"; };
 		69CBCD451E934228009D5352 /* URLBlockerRuleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLBlockerRuleController.h; sourceTree = "<group>"; };
 		69CBCD461E934228009D5352 /* URLBlockerRuleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLBlockerRuleController.m; sourceTree = "<group>"; };
 		69CBCD481E934249009D5352 /* RuleEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleEditorController.h; sourceTree = "<group>"; };
@@ -216,8 +218,6 @@
 		69CBCD501E9347B8009D5352 /* UIResponder+FirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+FirstResponder.h"; sourceTree = "<group>"; };
 		69CBCD511E9347B8009D5352 /* UIResponder+FirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+FirstResponder.m"; sourceTree = "<group>"; };
 		A003A1922A0D1628008D8845 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A004360B1E81856F0067652D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A004360C1E81856F0067652D /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A010FA171E7986DE00E04222 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A010FA191E798C0400E04222 /* BUILD.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BUILD.md; sourceTree = "<group>"; };
 		A013DED92434E69A0087D12B /* UIImage+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Helpers.swift"; sourceTree = "<group>"; };
@@ -232,7 +232,6 @@
 		A028858128940B93007D5AE8 /* Storage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage2ViewController.swift; sourceTree = "<group>"; };
 		A02CB2B423D0B0B300880720 /* AddBookmarkActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookmarkActivity.swift; sourceTree = "<group>"; };
 		A036C3B12937A06C0035AA4F /* AddSearchEngineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSearchEngineViewController.swift; sourceTree = "<group>"; };
-		A03A5C05EE3C1632DC4828FF /* Pods-OnionBrowser Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnionBrowser Tests.debug.xcconfig"; path = "Target Support Files/Pods-OnionBrowser Tests/Pods-OnionBrowser Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A03CFA032892B05500F01DB5 /* DownloadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadHelper.swift; sourceTree = "<group>"; };
 		A03DBCEB22859B99001890C4 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		A03DBCEC22859B99001890C4 /* Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
@@ -466,13 +465,11 @@
 		A0CD36972890194900628DA6 /* Tab+WKNavigationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tab+WKNavigationDelegate.swift"; sourceTree = "<group>"; };
 		A0D070FC275A513700922D70 /* FileManager+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Helpers.swift"; sourceTree = "<group>"; };
 		A0D9008A24095F5C0046C9B3 /* AltSvcHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltSvcHeader.swift; sourceTree = "<group>"; };
-		A0DB59522747D36200B20436 /* Tor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Tor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E8E8B02938CDFB00DC2A2F /* SearchEnginesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEnginesViewController.swift; sourceTree = "<group>"; };
 		A0FA965B2A015EBB005EDC3F /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
 		A0FA965C2A015EBB005EDC3F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		A0FA965F2A0161DA005EDC3F /* InstallViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstallViewController.xib; sourceTree = "<group>"; };
 		A0FA96602A0161DA005EDC3F /* InstallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallViewController.swift; sourceTree = "<group>"; };
-		A7CE50C2429233D841D5F1C1 /* Pods_OnionBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnionBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -482,8 +479,15 @@
 			files = (
 				A0C3770E1F47342C0039198E /* CoreData.framework in Frameworks */,
 				019516D11B7D8B400078586A /* libz.tbd in Frameworks */,
+				BBF3150E2A4BA39D003A91CF /* OrbotKit in Frameworks */,
+				BBF315082A4BA35B003A91CF /* MBProgressHUD in Frameworks */,
+				BBF315052A4BA34B003A91CF /* FavIcon in Frameworks */,
+				BBF3150B2A4BA390003A91CF /* ImageRow in Frameworks */,
+				BBF314FF2A4BA2F1003A91CF /* TUSafariActivity in Frameworks */,
+				BBF315112A4BA3C5003A91CF /* Eureka in Frameworks */,
+				BBF315022A4BA31B003A91CF /* SDCAlertView in Frameworks */,
 				016B2FCD1A5648AE002D2730 /* WebKit.framework in Frameworks */,
-				3E5C6BF218A52D07DF55A6FE /* Pods_OnionBrowser.framework in Frameworks */,
+				BBF314F72A4BA265003A91CF /* DTFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,7 +495,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6311B9040FEC20B68B89A24 /* Pods_OnionBrowser_Tests.framework in Frameworks */,
+				BBF314FC2A4BA2BE003A91CF /* OCMock in Frameworks */,
+				BBF314F92A4BA279003A91CF /* DTFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,7 +519,6 @@
 				018333D81A35727C00670CD1 /* Endless Tests */,
 				01801E931A32CA2A002B4718 /* Products */,
 				6CC21620E2AE7B4037C6401B /* Frameworks */,
-				1D12FDC84D38C4B31A5E3DFB /* Pods */,
 			);
 			sourceTree = "<group>";
 			usesTabs = 1;
@@ -586,28 +590,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1D12FDC84D38C4B31A5E3DFB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0F209831E77CACB3F2BAE200 /* Pods-OnionBrowser.debug.xcconfig */,
-				0B6C8A679F0E1774945F3777 /* Pods-OnionBrowser.release.xcconfig */,
-				A03A5C05EE3C1632DC4828FF /* Pods-OnionBrowser Tests.debug.xcconfig */,
-				5FE3172A8893F37ED0730F03 /* Pods-OnionBrowser Tests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		6CC21620E2AE7B4037C6401B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A0DB59522747D36200B20436 /* Tor.framework */,
 				A0C3770D1F47342C0039198E /* CoreData.framework */,
-				693145FD1D3EEAE400D08A6A /* Tor.framework */,
 				019516D01B7D8B400078586A /* libz.tbd */,
 				016B2FCC1A5648AE002D2730 /* WebKit.framework */,
-				018333EB1A357D8B00670CD1 /* libPods-OCMock.a */,
-				A7CE50C2429233D841D5F1C1 /* Pods_OnionBrowser.framework */,
-				12570C301D8FEF51AB9F5CDD /* Pods_OnionBrowser_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -623,8 +611,6 @@
 				A0759DEA20975DDE000DFBFE /* config */,
 				A06F5F49275692060023622E /* .bartycrouch.toml */,
 				A07D655C2208A4320002D775 /* LICENSE */,
-				A004360B1E81856F0067652D /* Podfile */,
-				A004360C1E81856F0067652D /* Podfile.lock */,
 			);
 			name = Build;
 			sourceTree = "<group>";
@@ -803,12 +789,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01801EB81A32CA2A002B4718 /* Build configuration list for PBXNativeTarget "OnionBrowser" */;
 			buildPhases = (
-				65319E2856D38575BBE828A1 /* [CP] Check Pods Manifest.lock */,
 				A06F5F4A275692870023622E /* BartyCrouch */,
 				01801E8E1A32CA2A002B4718 /* Sources */,
 				01801E8F1A32CA2A002B4718 /* Frameworks */,
 				01801E901A32CA2A002B4718 /* Resources */,
-				75010C1DF4431D7C131B801C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -816,6 +800,16 @@
 				8A3EBA9421700B0A0054A9FF /* PBXTargetDependency */,
 			);
 			name = OnionBrowser;
+			packageProductDependencies = (
+				BBF314F62A4BA265003A91CF /* DTFoundation */,
+				BBF314FE2A4BA2F1003A91CF /* TUSafariActivity */,
+				BBF315012A4BA31B003A91CF /* SDCAlertView */,
+				BBF315042A4BA34B003A91CF /* FavIcon */,
+				BBF315072A4BA35B003A91CF /* MBProgressHUD */,
+				BBF3150A2A4BA390003A91CF /* ImageRow */,
+				BBF3150D2A4BA39D003A91CF /* OrbotKit */,
+				BBF315102A4BA3C5003A91CF /* Eureka */,
+			);
 			productName = Endless;
 			productReference = 01801E921A32CA2A002B4718 /* OnionBrowser.app */;
 			productType = "com.apple.product-type.application";
@@ -824,12 +818,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 018333DF1A35727C00670CD1 /* Build configuration list for PBXNativeTarget "OnionBrowser Tests" */;
 			buildPhases = (
-				C8C76E728A4BA9CC9C2E5513 /* [CP] Check Pods Manifest.lock */,
 				8A1177102010FD1F00741429 /* CopyFiles */,
 				018333D31A35727C00670CD1 /* Sources */,
 				018333D41A35727C00670CD1 /* Frameworks */,
 				018333D51A35727C00670CD1 /* Resources */,
-				D95B93887130336183D59208 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -837,6 +829,10 @@
 				018333DE1A35727C00670CD1 /* PBXTargetDependency */,
 			);
 			name = "OnionBrowser Tests";
+			packageProductDependencies = (
+				BBF314F82A4BA279003A91CF /* DTFoundation */,
+				BBF314FB2A4BA2BE003A91CF /* OCMock */,
+			);
 			productName = "Endless Tests";
 			productReference = 018333D71A35727C00670CD1 /* OnionBrowser Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -854,9 +850,7 @@
 				TargetAttributes = {
 					01801E911A32CA2A002B4718 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = W36S8KLY7S;
 						LastSwiftMigration = 1020;
-						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.DataProtection = {
 								enabled = 1;
@@ -876,7 +870,7 @@
 				};
 			};
 			buildConfigurationList = 01801E8D1A32CA2A002B4718 /* Build configuration list for PBXProject "OnionBrowser" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -918,6 +912,17 @@
 				fi,
 			);
 			mainGroup = 01801E891A32CA2A002B4718;
+			packageReferences = (
+				BBF314F52A4BA265003A91CF /* XCRemoteSwiftPackageReference "DTFoundation" */,
+				BBF314FA2A4BA2BE003A91CF /* XCRemoteSwiftPackageReference "ocmock" */,
+				BBF314FD2A4BA2F1003A91CF /* XCRemoteSwiftPackageReference "TUSafariActivity" */,
+				BBF315002A4BA31B003A91CF /* XCRemoteSwiftPackageReference "SDCAlertView" */,
+				BBF315032A4BA34B003A91CF /* XCRemoteSwiftPackageReference "FavIcon" */,
+				BBF315062A4BA35B003A91CF /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				BBF315092A4BA390003A91CF /* XCRemoteSwiftPackageReference "ImageRow" */,
+				BBF3150C2A4BA39D003A91CF /* XCRemoteSwiftPackageReference "orbotkit" */,
+				BBF3150F2A4BA3C5003A91CF /* XCRemoteSwiftPackageReference "Eureka" */,
+			);
 			productRefGroup = 01801E931A32CA2A002B4718 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -979,60 +984,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		65319E2856D38575BBE828A1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OnionBrowser-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		75010C1DF4431D7C131B801C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OnionBrowser/Pods-OnionBrowser-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DTFoundation/DTFoundation.framework",
-				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
-				"${BUILT_PRODUCTS_DIR}/FavIcon/FavIcon.framework",
-				"${BUILT_PRODUCTS_DIR}/ImageRow/ImageRow.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/OrbotKit/OrbotKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SDCAlertView/SDCAlertView.framework",
-				"${BUILT_PRODUCTS_DIR}/TUSafariActivity/TUSafariActivity.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DTFoundation.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FavIcon.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageRow.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OrbotKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCAlertView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TUSafariActivity.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnionBrowser/Pods-OnionBrowser-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8A3EBA9221700AE80054A9FF /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -1069,49 +1020,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if [ -f /opt/homebrew/bin/bartycrouch ]; then\n    /opt/homebrew/bin/bartycrouch update -x\n    /opt/homebrew/bin/bartycrouch lint -x\nelse\n    echo \"warning: BartyCrouch not installed. Download it form https://github.com/Flinesoft/BartyCrouch\"\nfi\n";
-		};
-		C8C76E728A4BA9CC9C2E5513 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OnionBrowser Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D95B93887130336183D59208 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OnionBrowser Tests/Pods-OnionBrowser Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DTFoundation/DTFoundation.framework",
-				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DTFoundation.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnionBrowser Tests/Pods-OnionBrowser Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1517,14 +1425,12 @@
 		};
 		01801EB91A32CA2A002B4718 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F209831E77CACB3F2BAE200 /* Pods-OnionBrowser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = "";
 				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = Endless/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -1535,7 +1441,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(OB_APP_BUNDLE_ID)";
 				PRODUCT_NAME = OnionBrowser;
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "$(PROVISIONING_PROFILE_SPECIFIER_MAIN)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OBJC_BRIDGING_HEADER = "OnionBrowser/OnionBrowser-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1546,7 +1452,6 @@
 		};
 		01801EBA1A32CA2A002B4718 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B6C8A679F0E1774945F3777 /* Pods-OnionBrowser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1573,7 +1478,6 @@
 		};
 		018333E01A35727C00670CD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A03A5C05EE3C1632DC4828FF /* Pods-OnionBrowser Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Manual;
@@ -1592,10 +1496,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -1613,7 +1514,6 @@
 		};
 		018333E11A35727C00670CD1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FE3172A8893F37ED0730F03 /* Pods-OnionBrowser Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Manual;
@@ -1628,10 +1528,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -1703,6 +1600,134 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BBF314F52A4BA265003A91CF /* XCRemoteSwiftPackageReference "DTFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Cocoanetics/DTFoundation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.18;
+			};
+		};
+		BBF314FA2A4BA2BE003A91CF /* XCRemoteSwiftPackageReference "ocmock" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/erikdoe/ocmock";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		BBF314FD2A4BA2F1003A91CF /* XCRemoteSwiftPackageReference "TUSafariActivity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/davbeck/TUSafariActivity";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		BBF315002A4BA31B003A91CF /* XCRemoteSwiftPackageReference "SDCAlertView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sberrevoets/SDCAlertView/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.3;
+			};
+		};
+		BBF315032A4BA34B003A91CF /* XCRemoteSwiftPackageReference "FavIcon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tladesignz/FavIcon";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		BBF315062A4BA35B003A91CF /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		BBF315092A4BA390003A91CF /* XCRemoteSwiftPackageReference "ImageRow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/EurekaCommunity/ImageRow";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+		BBF3150C2A4BA39D003A91CF /* XCRemoteSwiftPackageReference "orbotkit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/guardianproject/orbotkit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		BBF3150F2A4BA3C5003A91CF /* XCRemoteSwiftPackageReference "Eureka" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/xmartlabs/Eureka";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BBF314F62A4BA265003A91CF /* DTFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBF314F52A4BA265003A91CF /* XCRemoteSwiftPackageReference "DTFoundation" */;
+			productName = DTFoundation;
+		};
+		BBF314F82A4BA279003A91CF /* DTFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBF314F52A4BA265003A91CF /* XCRemoteSwiftPackageReference "DTFoundation" */;
+			productName = DTFoundation;
+		};
+		BBF314FB2A4BA2BE003A91CF /* OCMock */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBF314FA2A4BA2BE003A91CF /* XCRemoteSwiftPackageReference "ocmock" */;
+			productName = OCMock;
+		};
+		BBF314FE2A4BA2F1003A91CF /* TUSafariActivity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBF314FD2A4BA2F1003A91CF /* XCRemoteSwiftPackageReference "TUSafariActivity" */;
+			productName = TUSafariActivity;
+		};
+		BBF315012A4BA31B003A91CF /* SDCAlertView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBF315002A4BA31B003A91CF /* XCRemoteSwiftPackageReference "SDCAlertView" */;
+			productName = SDCAlertView;
+		};
+		BBF315042A4BA34B003A91CF /* FavIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBF315032A4BA34B003A91CF /* XCRemoteSwiftPackageReference "FavIcon" */;
+			productName = FavIcon;
+		};
+		BBF315072A4BA35B003A91CF /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBF315062A4BA35B003A91CF /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		BBF3150A2A4BA390003A91CF /* ImageRow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBF315092A4BA390003A91CF /* XCRemoteSwiftPackageReference "ImageRow" */;
+			productName = ImageRow;
+		};
+		BBF3150D2A4BA39D003A91CF /* OrbotKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBF3150C2A4BA39D003A91CF /* XCRemoteSwiftPackageReference "orbotkit" */;
+			productName = OrbotKit;
+		};
+		BBF315102A4BA3C5003A91CF /* Eureka */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBF3150F2A4BA3C5003A91CF /* XCRemoteSwiftPackageReference "Eureka" */;
+			productName = Eureka;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 01801E8A1A32CA2A002B4718 /* Project object */;
 }
