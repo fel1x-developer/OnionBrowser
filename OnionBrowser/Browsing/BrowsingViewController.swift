@@ -659,11 +659,11 @@ class BrowsingViewController: UIViewController, TabDelegate {
 	private func updateReloadBt() {
 		if currentTab?.isLoading ?? false {
 			reloadBt.setImage(BrowsingViewController.stopImg, for: .normal)
-			reloadBt.imageEdgeInsets = UIEdgeInsets(top: 4, left: 4, bottom: 4, right: 4)
+			reloadBt.configuration!.contentInsets = NSDirectionalEdgeInsets(top: 4, leading: 4, bottom: 4, trailing: 4)
 		}
 		else {
 			reloadBt.setImage(BrowsingViewController.reloadImg, for: .normal)
-			reloadBt.imageEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+			reloadBt.configuration!.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0)
 		}
 	}
 }

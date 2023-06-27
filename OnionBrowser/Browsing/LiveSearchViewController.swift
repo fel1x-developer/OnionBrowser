@@ -23,7 +23,7 @@ class LiveSearchViewController: UITableViewController {
 		let button = UIButton(type: .custom)
 
 		button.setImage(UIImage(named: "close"), for: .normal)
-		button.imageEdgeInsets = UIEdgeInsets(top: 5, left: 5, bottom: 5, right: 5)
+		button.configuration!.contentInsets = NSDirectionalEdgeInsets(top: 5, leading: 5, bottom: 5, trailing: 5)
 
 		button.tintColor = .white
 		button.backgroundColor = .lightGray
